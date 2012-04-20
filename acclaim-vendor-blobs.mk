@@ -67,7 +67,6 @@ PRODUCT_COPY_FILES  += \
 	vendor/bn/acclaim/proprietary/libmedia_jni.so:/system/lib/libmedia_jni.so \
 	vendor/bn/acclaim/proprietary/libnativehelper.so:/system/lib/libnativehelper.so \
 	vendor/bn/acclaim/proprietary/libnetutils.so:/system/lib/libnetutils.so \
-	vendor/bn/acclaim/proprietary/libomap_mm_library_jni.so:/system/lib/libomap_mm_library_jni.so \
 	vendor/bn/acclaim/proprietary/libpdfhost.so:/system/lib/libpdfhost.so \
 	vendor/bn/acclaim/proprietary/libplayready.so:/system/lib/libplayready.so \
 	vendor/bn/acclaim/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \

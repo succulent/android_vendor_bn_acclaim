@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES  += \
 	vendor/bn/acclaim/proprietary/libasound.so:/system/lib/libasound.so \
 	vendor/bn/acclaim/proprietary/libaudioeffect_jni.so:/system/lib/libaudioeffect_jni.so \
 	vendor/bn/acclaim/proprietary/libaudiopolicy.so:/system/lib/libaudiopolicy.so \
+	vendor/bn/acclaim/proprietary/libaudio.so:/system/lib/libaudio.so \
 	vendor/bn/acclaim/proprietary/libdrm1.so:/system/lib/libdrm1.so \
 	vendor/bn/acclaim/proprietary/libdrmplay.so:/system/lib/libdrmplay.so \
 	vendor/bn/acclaim/proprietary/libdrm_plugin.so:/system/lib/libdrm_plugin.so \
@@ -66,6 +67,7 @@ PRODUCT_COPY_FILES  += \
 	vendor/bn/acclaim/proprietary/libmedia_jni.so:/system/lib/libmedia_jni.so \
 	vendor/bn/acclaim/proprietary/libnativehelper.so:/system/lib/libnativehelper.so \
 	vendor/bn/acclaim/proprietary/libnetutils.so:/system/lib/libnetutils.so \
+	vendor/bn/acclaim/proprietary/libomap_mm_library_jni.so:/system/lib/libomap_mm_library_jni.so \
 	vendor/bn/acclaim/proprietary/libpdfhost.so:/system/lib/libpdfhost.so \
 	vendor/bn/acclaim/proprietary/libplayready.so:/system/lib/libplayready.so \
 	vendor/bn/acclaim/proprietary/libril.so:/system/lib/libril.so \
@@ -93,5 +95,5 @@ PRODUCT_COPY_FILES  += \
 	vendor/bn/acclaim/proprietary/vendor/lib/libPVRScopeServices.so:/system/vendor/lib/libPVRScopeServices.so \
 	vendor/bn/acclaim/proprietary/vendor/lib/libsrv_init.so:/system/vendor/lib/libsrv_init.so \
 	vendor/bn/acclaim/proprietary/vendor/lib/libsrv_um.so:/system/vendor/lib/libsrv_um.so \
-	vendor/bn/acclaim/proprietary/vendor/lib/libusc.so:/system/vendor/lib/libusc.so \
+	vendor/bn/acclaim/proprietary/vendor/lib/libusc.so:/system/vendor/lib/libusc.so 
 

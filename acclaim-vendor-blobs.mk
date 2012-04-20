@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES  += \
 	vendor/bn/acclaim/proprietary/libnetutils.so:/system/lib/libnetutils.so \
 	vendor/bn/acclaim/proprietary/libpdfhost.so:/system/lib/libpdfhost.so \
 	vendor/bn/acclaim/proprietary/libplayready.so:/system/lib/libplayready.so \
-	vendor/bn/acclaim/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
 	vendor/bn/acclaim/proprietary/libril.so:/system/lib/libril.so \
 	vendor/bn/acclaim/proprietary/libRS.so:/system/lib/libRS.so \
 	vendor/bn/acclaim/proprietary/librtp_jni.so:/system/lib/librtp_jni.so \

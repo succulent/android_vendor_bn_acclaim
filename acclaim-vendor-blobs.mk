@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES  += \
 	vendor/bn/acclaim/proprietary/libomap_mm_library_jni.so:/system/lib/libomap_mm_library_jni.so \
 	vendor/bn/acclaim/proprietary/libpdfhost.so:/system/lib/libpdfhost.so \
 	vendor/bn/acclaim/proprietary/libplayready.so:/system/lib/libplayready.so \
+	vendor/bn/acclaim/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
 	vendor/bn/acclaim/proprietary/libril.so:/system/lib/libril.so \
 	vendor/bn/acclaim/proprietary/libRS.so:/system/lib/libRS.so \
 	vendor/bn/acclaim/proprietary/librtp_jni.so:/system/lib/librtp_jni.so \
@@ -82,7 +83,6 @@ PRODUCT_COPY_FILES  += \
 	vendor/bn/acclaim/proprietary/libui.so:/system/lib/libui.so \
 	vendor/bn/acclaim/proprietary/libvorbisidec.so:/system/lib/libvorbisidec.so \
 	vendor/bn/acclaim/proprietary/libysshared.so:/system/lib/libysshared.so \
-	vendor/bn/acclaim/proprietary/usr/share/alsa.conf:/system/usr/share/alsa.conf \
 	vendor/bn/acclaim/proprietary/vendor/lib/gralloc.omap4.so:/system/vendor/lib/hw/gralloc.omap4.so \
 	vendor/bn/acclaim/proprietary/vendor/lib/libEGL_POWERVR_SGX540_120.so:/system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
 	vendor/bn/acclaim/proprietary/vendor/lib/libGLESv1_CM_ORG_CF3D.so:/system/vendor/lib/egl/libGLESv1_CM_ORG_CF3D.so \

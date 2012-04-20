@@ -1,0 +1,25 @@
+#!/system/bin/sh
+echo "running install smc"
+mkdir /data/smc
+cat /system/bin/BNTV250_PD_ModelCertKeys.wrapped > /data/smc/BNTV250_PD_ModelCertKeys.wrapped
+cat /system/bin/BNTV250_PD_ModelCert.wrapped > /data/smc/BNTV250_PD_ModelCert.wrapped
+cat /system/bin/BNTV250_PR_ModelCertKeys.wrapped > /data/smc/BNTV250_PR_ModelCertKeys.wrapped
+cat /system/bin/BNTV250_PR_ModelCert.wrapped > /data/smc/BNTV250_PR_ModelCert.wrapped
+cat /system/bin/opls_file.wrapped > /data/smc/opls_file.wrapped
+cat /system/bin/provision_device > /data/smc/provision_device
+cat /system/bin/provisioning_client > /data/smc/provisioning_client
+cat /system/bin/provisioning_client.ssig > /data/smc/provisioning_client.ssig
+cat /system/bin/setup_smc > /data/smc/setup_smc
+cat /system/bin/smc_normal_world_android_cfg.ini > /data/smc/smc_normal_world_android_cfg.ini
+cat /system/bin/smc_pa_ctrl > /data/smc/smc_pa_ctrl
+cat /system/bin/smc_pa.ift > /data/smc/smc_pa.ift
+cat /system/bin/tf_daemon > /data/smc/tf_daemon
+cd /data/smc/
+chmod 777 *
+/data/smc/setup_smc
+sleep 2
+/data/smc/provisioning_client setModelCert /data/smc/BNTV250_PR_ModelCert.wrapped
+/data/smc/provisioning_client setModelKey /data/smc/BNTV250_PR_ModelCertKeys.wrapped
+/data/smc/provisioning_client setOPLFromFile /data/smc/opls_file.wrapped 
+/data/smc/provisioning_client setWModelCert /data/smc/BNTV250_PD_ModelCert.wrapped
+/data/smc/provisioning_client setWModelKey /data/smc/BNTV250_PD_ModelCertKeys.wrapped

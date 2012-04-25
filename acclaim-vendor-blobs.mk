@@ -44,18 +44,16 @@ PRODUCT_COPY_FILES  += \
 	vendor/bn/acclaim/proprietary/bins/vold:/system/bin/vold \
 	vendor/bn/acclaim/proprietary/ducati/base_image_app_m3.xem3:/system/lib/ducati/base_image_app_m3.xem3 \
 	vendor/bn/acclaim/proprietary/ducati/base_image_sys_m3.xem3:/system/lib/ducati/base_image_sys_m3.xem3 \
-	vendor/bn/acclaim/proprietary/etc/asound.conf:/system/etc/asound.conf \
 	vendor/bn/acclaim/proprietary/etc/event-log-tags:/system/etc/event-log-tags \
+	vendor/bn/acclaim/proprietary/etc/asound.conf:/system/etc/asound.conf \
 	vendor/bn/acclaim/proprietary/hw/alsa.omap4.so:/system/lib/hw/alsa.omap4.so \
 	vendor/bn/acclaim/proprietary/hw/gralloc.default.so:/system/lib/hw/gralloc.default.so \
 	vendor/bn/acclaim/proprietary/hw/lights.omap4.so:/system/lib/hw/lights.omap4.so \
 	vendor/bn/acclaim/proprietary/hw/overlay.omap4.so:/system/lib/hw/overlay.omap4.so \
 	vendor/bn/acclaim/proprietary/hw/sensors.omap4.so:/system/lib/hw/sensors.omap4.so \
 	vendor/bn/acclaim/proprietary/libafdrm.so:/system/lib/libafdrm.so \
-	vendor/bn/acclaim/proprietary/libasound.so:/system/lib/libasound.so \
 	vendor/bn/acclaim/proprietary/libaudioeffect_jni.so:/system/lib/libaudioeffect_jni.so \
 	vendor/bn/acclaim/proprietary/libaudiopolicy.so:/system/lib/libaudiopolicy.so \
-	vendor/bn/acclaim/proprietary/libaudio.so:/system/lib/libaudio.so \
 	vendor/bn/acclaim/proprietary/libdrm1.so:/system/lib/libdrm1.so \
 	vendor/bn/acclaim/proprietary/libdrmplay.so:/system/lib/libdrmplay.so \
 	vendor/bn/acclaim/proprietary/libdrm_plugin.so:/system/lib/libdrm_plugin.so \
